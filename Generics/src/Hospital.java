@@ -38,6 +38,9 @@ public class Hospital {
         drFreud.visitAll(susi,madAdam);
 
         mediBot.visitAll(susi,madAdam,somePatient);
+        //drFreud.visitAll(madAdam,susi,new Patient<Dementia>(),new Patient<Rash>());
+        // Rash !extends Mental
+        drWho.visitAll(new Patient<Rash>());
 
     }
 }
